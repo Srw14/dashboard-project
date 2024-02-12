@@ -3,17 +3,18 @@ import "./login.css";
 function login() {
   return (
     <>
-      {/* <img
-        style={{ width: "100%", height: "100%" }}
-        src="/src/img/bg-img.jpg"
-      /> */}
-      <body>
-        <div class="login-from">
-          <div class="header-text">Login</div>
-          <input placeholder="Your Username" type="text" className="Username" />
-          <input placeholder="Your Password" type="Password" className="a" />
+      <header>Welcom</header>
 
-          <button>login</button>
+      <body>
+        <div className="login-from">
+        <div class="header-text">Sign In</div>
+        <div className="form-group">
+              <input type="text" className="form-control" placeholder="Username" />
+            </div>
+            <div className="form-group">
+              <input type="password" className="form-control" placeholder="Password" />
+            </div>
+            <button type="submit" className="btn-login">Login</button>
         </div>
       </body>
     </>
